@@ -30,7 +30,7 @@ with that).
     input_no_newline('this is a prompt. proceed? ')
     print('this will be printed on the same line as the previous')
 
-Output:
+Output:  
     this is a prompt. proceed? foobar this is user inputthis will be printed on
     the same line as the previous
 
