@@ -20,7 +20,7 @@ function, and I failed, so I had to recreate most of the functionality from
 scratch, which was a pain.
 
 A better solution to the problem of getting stuff printed on the same line as
-input would be my TerminalHistory repo. Or you could just look through the PyPy
+input would be my [terminal-history](https://github.com/ForgottenUmbrella/terminal-history.git) repo. Or you could just look through the PyPy
 source code yourself and try to create your own function based on it (good luck
 with that).
 
@@ -30,7 +30,8 @@ with that).
     input_no_newline('this is a prompt. proceed? ')
     print('this will be printed on the same line as the previous')
 
-Output:  
+Output:
+
     this is a prompt. proceed? foobar this is user inputthis will be printed on
     the same line as the previous
 
