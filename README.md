@@ -34,4 +34,7 @@ Output:
     this is a prompt. proceed? foobar this is user inputthis will be printed on
     the same line as the previous
 
+## To do
+* Handle/ignore all keypresses that don't affect input, otherwise they'll show
+  up as control sequences
 
