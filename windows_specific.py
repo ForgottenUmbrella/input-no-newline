@@ -17,7 +17,6 @@ def get_clipboard_data():
     """Return string previously copied from Windows clipboard.
 
     Adapted from <http://stackoverflow.com/a/23285159/6379747>.
-
     """
     CF_TEXT = 1
     user32 = ctypes.windll.user32
@@ -49,4 +48,4 @@ input_code = {
     'home': 'G',
     'backspace': '\b',
     'del': 'S',
-}
+    }

@@ -12,7 +12,6 @@ def getwch():
     ActiveState code, adapted from
     <http://code.activestate.com/recipes/134892> by Danny Yoo under
     the Python Software Foundation license.
-
     """
     file_descriptor = sys.stdin.fileno()
     old_settings = termios.tcgetattr(file_descriptor)
@@ -39,4 +38,4 @@ input_code = {
     'CSI': ['\x1b', '['],
     'backspace': '\x7f',
     'del': ['3', '~'],
-}
+    }

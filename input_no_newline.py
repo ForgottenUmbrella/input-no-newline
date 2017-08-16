@@ -38,14 +38,18 @@ def input_no_newline(prompt=''):  # pylint: disable=too-many-branches, too-many-
                 (history_index, input_replaced, history_modified) = (
                     handle_prev_history(
                         history_index, response, replacements, input_replaced,
-                        history_modified))
+                        history_modified
+                        )
+                    )
                 response = restore_history(history_index, response, position)
                 position = len(response)
             elif char == input_code['down']:
                 (history_index, input_replaced, history_modified) = (
                     handle_next_history(
                         history_index, response, replacements, input_replaced,
-                        history_modified))
+                        history_modified
+                        )
+                    )
                 response = restore_history(history_index, response, position)
                 position = len(response)
             elif char == input_code['right'] and position < len(response):

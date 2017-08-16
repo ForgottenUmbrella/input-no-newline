@@ -49,7 +49,8 @@ def handle_prev_history(history_index, replaced, old_history,
             input_replaced = True
         else:
             store_and_replace_history(
-                history_index, replaced, old_history)
+                history_index, replaced, old_history
+                )
             history_modified = True
         history_index -= 1
     return (history_index, input_replaced, history_modified)

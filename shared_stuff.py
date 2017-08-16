@@ -12,7 +12,7 @@ ANSI = {
     '^D': '\x04',
     '^V': '\x16',
     '^Z': '\x1a',
-}
+    }
 
 
 def move_cursor(direction, count=1):
